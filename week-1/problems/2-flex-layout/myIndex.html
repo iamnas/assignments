@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .content {
+            flex-grow: 1;
+            background-color: red;
+        }
+
+        .content2 {
+            flex-grow: 2;
+            background-color: blue;
+        }
+
+        .box {
+            width: 200px;
+            margin: 0 auto;
+            /* Centers the .box horizontally */
+            background-color: green;
+        }
+        
+            .container-chat {
+                display: flex;
+                justify-content: center; /* Centers flex items horizontally */
+                align-items: center;     /* Centers flex items vertically */
+                height: 100vh;           /* Full viewport height */
+            }
+            .box-chat    {
+                width: 200px;
+                background-color: green;
+            }
+
+    </style>        
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Left</h1>
+        </div>
+        <div class="content2">
+            <h1>Right</h1>
+        </div>
+    </div>
+
+
+
+
+    <div class="box">
+        <h1>Centered Box</h1>
+    </div>
+
+
+    <div class="container-chat">
+        <div class="box-chat">
+            <h1>Centered Box</h1>
+        </div>
+    </div>
+
+    
+
+</body>
+
+</html>
